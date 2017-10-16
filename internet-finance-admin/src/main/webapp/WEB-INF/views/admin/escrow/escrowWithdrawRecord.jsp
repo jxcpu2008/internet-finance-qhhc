@@ -1,0 +1,45 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+
+<style>
+#escrowWithdraw-search-panel span.om-combo,#escrowWithdraw-search-panel  span.om-calendar {
+	vertical-align: middle;
+}
+.unit {
+	clear: both;
+	text-align: left;
+}
+.unit label {
+	text-align: right;
+	float: left;
+	width: 100px;
+}
+.unit textarea {
+	width: 280px;
+	height: 5em;
+}
+</style>
+<script type="text/javascript" src="/resources/js/escrow/escrowWithdrawRecord.js"></script>
+<div layoutH="0" class="pageContent">
+	<div id="escrowWithdraw-search-panel">
+		   			<div >
+		   				<form action="" method="post" id="escrowWithdrawListSearchFrom">		   			
+				   				 <span class="label">担保公司名称：</span>
+					   			<input type="text" name="name" class="input-text" />
+					   			<span class="label">身份证号：</span>
+					   			<input type="text" name="staffIdcard" class="input-text"  onkeyup="value=value.replace(/[^\d\.]/g,'')" />
+					   			 <span class="label">员工手机：</span>
+					   			<input type="text" name="staffPhone" class="input-text"  onkeyup="value=value.replace(/[^\d\.]/g,'')" />
+					   			 <span class="label">提现状态：</span> 
+					   			<input name="inAccredit" id="search-escrowWithdraw" />
+			   			<span id="escrowWithdrawList-button-search">搜索</span>
+			   			</form>
+		   			</div>
+	</div>
+	<div class="panelBar">
+		<ul class="toolBar">
+		      <li><a class="add" id="selEscrowWithdrawRecord"><span>查询提现</span> </a></li>
+				<li class="line">line</li>
+		</ul>
+	</div>
+	<table id="escrowWithdrawRecharge"></table>
+</div>

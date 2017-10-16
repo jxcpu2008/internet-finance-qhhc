@@ -1,0 +1,31 @@
+.sms_ctx table {
+	margin: 0 auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.sms_ctx tbody {
+	line-height: 35px;
+}
+
+.t_head td {
+	background-color: #33CCFF;
+	width: 150px;
+	height: 25px;
+	border: 1px solid #CCC;
+}
+
+.t_body td {
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+.t_body td:FIRST-CHILD {
+	border-left: 1px solid #CCC;
+}
+
+.ctx_btn {
+	width: 80px;
+	height: 25px;
+}

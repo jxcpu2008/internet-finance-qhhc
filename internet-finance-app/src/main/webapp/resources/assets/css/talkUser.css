@@ -1,0 +1,174 @@
+/* qq & wechat */
+ #top {
+    width:60px;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+   	z-index:99;
+}
+#top .chat {
+	width: 48px;
+	height: 48px;
+	background-color: #aaa;
+	margin-bottom: 1px;
+	display: block;
+}
+#top .icon-chat {
+	background-image: url(/resources/assets/images/home/icon_chat1.jpg);
+	background-repeat: no-repeat;
+	overflow: none;
+}
+#top .chat-quns {
+	background-position: 0 0;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-quns:hover {
+	background-position: -48px 0;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-qq {
+	background-position: 0 -48px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-qq:hover {
+	background-position: -48px -48px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-wechat {
+	background-position: 0 -96px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-wechat:hover {
+	background-position: -48px -96px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-help {
+	background-position: 0 -144px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-help:hover {
+	background-position: -48px -144px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-calculate {
+	background-position: 0 -192px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-calculate:hover {
+	background-position: -48px -192px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-top {
+	background-position: 0 -192px;
+	display: none;
+}
+#top .chat-top:hover {
+	background-position: -48px -192px;
+	transition: all .3s ease-in .1s;
+}
+#top .ewm-quns {
+	position: absolute;
+	margin-top: -35px;
+	margin-left: -165px;
+	display: none;
+}
+#top .ewm-quns .ewm a{
+	font-size: 12px;
+	color: #333;
+	line-height: 18px;
+}
+#top .ewm-quns .ewm a em{
+	background:url(/resources/assets/images/home/QQqun.png) 0 0 no-repeat;
+	width:22px;
+	height:22px;
+	display: inline;
+	float: left;
+}
+#top .ewm-quns .ewm a span{
+	display: inline;
+	float: left;
+	margin-left: 10px;
+}
+#top .ewm-quns .ewm{
+	background-image: url(/resources/assets/images/home/bg_02.png);
+	background-repeat: no-repeat;
+	width: 161px;
+	height: 72px;
+	padding: 7px 5px;
+	
+}
+#top .ewm-quns .ewm a span.border{
+	padding-bottom:10px;
+	border-bottom: 1px dashed #efefef;
+}
+#top .ewm-quns .ewm dt,
+#top .ewm-quns .ewm dd{
+	overflow: hidden;
+	padding-bottom:5px;
+	font-weight: normal;
+}
+
+
+#top .ewm-wrap {
+	position: absolute;
+	margin-top: -120px;
+	margin-left: -165px;
+	display: none;
+}
+#top .ewm-wrap>p {
+	font-size: 12px;
+	text-align: center;
+	color: #333;
+}
+#top .ewm {
+	background-image: url(/resources/assets/images/home/bg_03.png);
+	background-repeat: no-repeat;
+	width: 161px;
+	height: 155px;
+	margin: 12px auto;
+}
+/* ¼ÆËãÆ÷ */
+.calculate {
+	/* background-color: #ce251f;
+	width: 138px;
+	height: 45px;
+	border-style:none;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;	 */
+}
+#calculateModal .input-group-addon {
+	padding: 6px;
+	background-color: #fff;
+	border-style: none;
+	width: 35px;
+	display: inline-block;
+	position: relative;
+	font-size: 18px;
+	left: -14px;
+	top: 2px;
+}
+#calculateModal .modal-body>.form-horizontal>.form-group {
+	margin-bottom: 28px;
+}
+#calculateModal .modal-body>.form-horizontal>.form-group:last-child {
+	border: 1px solid #eee; 
+	border-radius: 4px; 
+	padding-top: 15px;
+    padding-bottom: 15px; 
+    width: 455px; 
+    margin: 15px auto;
+}
+#calculateModal .modal-body>.form-horizontal>.form-group:last-child>label {
+	padding-bottom: 7px;
+}
+#calculateModal .modal-body>.form-horizontal>.form-group:last-child>.all-money {
+	overflow: hidden;
+}
+#calculateModal .modal-footer {
+	text-align:center;
+}
+#calculateModal .error-tips{
+	position: absolute;
+}

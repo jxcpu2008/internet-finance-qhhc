@@ -1,0 +1,70 @@
+.submenu>li{
+
+    margin-top: 1px;
+
+
+}
+
+.panel a{
+    text-decoration: none;
+
+}
+.list-group-item{
+    padding: 0;
+}
+.list-group-item>a{
+    display: block;
+    /*background: #d9534f;*/
+    width: 100%;
+    color: #080808;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.list-group-item>a:hover{
+    color:#d9534f;
+}
+
+.collis {
+    position: relative;
+    /*text-align: center;*/
+    padding: 0;
+
+    /*border-radius: 4px;*/
+}
+.collis a{
+    text-decoration: none;
+    /*position: absolute;*/
+    display: block;
+    font-size: 17px;
+    padding:  14px 0 15px 0px;
+    line-height: 16px;
+    padding: 19px 0 19px 30px;
+    width: 100%;
+}
+.activel{
+    background-color: #d9534f;
+    color: #ffffff;
+}
+
+.collis a:hover{
+color: #ffffff;
+    background-color: #ec7770;
+   /*  -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; */
+}
+.titmian{
+    padding: 20px 0 0 20px;
+}
+.titmian .tit{
+    font-size: 20px;
+
+}

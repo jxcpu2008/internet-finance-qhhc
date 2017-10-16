@@ -1,0 +1,83 @@
+/*container*/
+#ym-window{
+	background:#ffffff;overflow:hidden;
+	font-size:12px;font-family:"微软雅黑";
+	 border-radius:4px;
+}
+
+/*header*/
+/*.ym-tl{padding-left:4px;background:#aaa;}
+.ym-tr{padding-right:4px}*/
+.ym-tc{background:#fff; overflow:hidden;height:42px;line-height:42px;border-bottom:1px solid #e5e5e5;}
+.ym-ttc{height:0px}
+.ym-header-text{color:#777;font-weight:bold;margin-left:20px;float:left;font-size:1.2em}
+.ym-header-tools{float:right;margin-top:1px}
+
+/*body*/
+/*.ym-ml{background:#aaa;padding-left:4px;}
+.ym-mr{padding-right:4px;}*/
+.ym-mc{background:#ffffff;padding:0}
+.ym-body{overflow:hidden;font-size:12px;white-space:normal;}
+
+/*button*/
+.ym-btn{text-align:center;padding-bottom:20px}
+input#ymPrompt_btn_1{
+	background:#f0ad4e;
+}
+/*footer
+.ym-bl{background:#aaa;padding-left:4px}
+.ym-br{padding-right:4px}
+.ym-bc{height:4px;font-size:4px}
+*/
+/*icon*/
+.ymPrompt_alert{
+	/* padding-left:90px;
+	background:url(images/info.gif) no-repeat 20px 50% */
+	padding: 30px 35px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+}
+.ymPrompt_succeed{
+	/* padding-left:90px;
+	background:url(images/right.gif) no-repeat 20px 50% */
+	padding: 30px 35px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+}
+.ymPrompt_error{
+	/* padding-left:90px;
+	background:url(images/err.gif) no-repeat 20px 50% */
+	padding: 30px 35px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+}
+.ymPrompt_confirm{
+	  /* padding: 10px 90px; */
+	  padding: 30px 35px;
+      border-bottom: 1px solid #e5e5e5;
+      margin-bottom: 10px;
+	  /* background:url(images/ask.gif) no-repeat 20px 50% */
+}
+.ymPrompt_alert .ym-content,.ymPrompt_succeed .ym-content,.ymPrompt_error .ym-content,.ymPrompt_confirm .ym-content{/* padding:8% 0 10% 0; */font-size:15px;}
+.ym-content {
+  /* margin-left: 17%; */
+  text-align:center;
+}
+/*图标公共定义*/
+.ym-header-tools div{
+	cursor:pointer;
+	width:26px;height:16px;float:left;margin:3px 1px;
+	font-family:webdings;
+	color: #bbb;
+}
+.ym-header-tools div strong{font-size:21px; line-height: 16px}
+
+/*取消确认按钮样式*/
+input.btnStyle{
+	background:#d9534f;
+	font-size:12px;color:#fff;border:0;margin:0 17px;
+	padding: 8px 27px;
+	border-radius: 3px;
+	line-height:1.5
+
+}

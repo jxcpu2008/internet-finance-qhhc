@@ -1,0 +1,139 @@
+.bread {
+    padding-top: 18px;
+}
+.bread>ol {
+    display: inline-block;
+}
+.bread li:not(.active):after {
+    content: "\e258";
+    font-size: 12px;
+    color: #777;
+    margin-left: 10px;
+}
+.bread li:not(.active)>a {
+    color: #777;
+}
+.bread li.active {
+    color: #555;
+}
+
+.newslist{
+    margin: 0px 0 30px 0;
+
+
+}
+.newslt>ul{width: 100%
+-webkit-transform-style: preserve-3d;}
+.newslt>ul>li>a{
+    padding: 14px 0 15px 30px;
+
+}
+.newslt>ul>li a{
+    display: inline-block;
+    font-size: 17px;
+    color: #4e4e4e;
+    text-decoration: none;
+    width: 100%;
+
+}
+.newsactiv{
+    background-color: #d9534f;
+
+}
+.newslt>ul>li:first-child{
+
+
+}
+.newslt>ul>li:first-child>a{
+
+    color: #ffffff;
+    background-color: #d9534f;
+}
+.col-sm-10.pd {
+    margin-left: -45px;
+}
+.newslt>ul>li:hover{
+
+    /*-webkit-transform: rotate(5deg) ;*/
+    /*-moz-transform: rotate(5deg) ;*/
+    /*-ms-transform: rotate(5deg) ;*/
+    /*-o-transform: rotate(5deg) ;*/
+    /*transform: rotate(5deg) ;*/
+
+
+    /*-webkit-transition: all .2s;*/
+    /*-moz-transition: all .2s;*/
+    /*-ms-transition: all .2s;*/
+    /*-o-transition: all .2s;*/
+    /*transition: all .2s;*/
+
+
+
+}
+
+.newslt>ul>li>a:hover{
+    background-color: #ec7770;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.newslist{
+    width: 100% ;
+    /*min-height: 600px;*/
+}
+.newslt>ul>li>a:hover{
+
+    /*font-size: 25px;*/
+    color: #ffffff;
+
+}
+
+/*ÓÒ±ßÄÚÈÝÒ³*/
+.newsrt{
+    min-height: 600px;
+}
+
+/* Â·¾¶µ¼º½*/
+.newsindex{
+    margin-bottom: 0;
+}
+.pd{
+    padding: 20px 0 0 0;
+}
+
+.newsmain p{
+    text-indent: 2em;
+
+}
+.newsmain ul{
+    list-style: none;
+    margin-bottom: 90px;
+}
+.newsmain ul li a h5{
+    font-size: 15px;
+    color: #777;
+}
+.newsmain ul li a:hover h5{
+ text-decoration: none;
+    color: #d9534f;
+}
+.newsmain ul li a:hover{
+    text-decoration: none;
+    color: #d9534f;
+}
+.newsmain ul li {
+    padding-left: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.newsmain ul li span{
+    float: right;
+    margin-top: -25px;
+    padding-right: 20px;
+}

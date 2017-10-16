@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width:100%;
+	height:100%;
+	padding-bottom:1rem;
+	background:#ffffff;
+	background-size:cover;
+	font-size:1.3rem;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.txt-l {text-align:left;}
+.txt-c {text-align:center;}
+.txt-r {text-align:right;}
+.fl-l{float:left;}
+.fl-r{float:right;}
+.clearfix {overflow: hidden;}
+
+.top-bar{
+	background-color:#e03e3f;
+	overflow:hidden;
+	font-size:1.6rem;
+	color:#fff;
+	text-align:center;
+	padding: 1.4rem 0;
+	position: fixed;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:100;
+}
+.top-bar .btn-back{
+	display:block;
+	position:absolute;
+	left:3%;
+	top:50%;
+	margin-top:-1.1rem;
+	background-image:url(../images/arrow.png);
+	background-repeat:no-repeat;
+	width:1.1rem;
+	height:1.9rem;
+	background-size:contain;
+}
+.content-mt{
+	display:block;
+	width:100%;
+	height:4.8rem;
+}
+/* login */
+.login .banner img{
+	width:100%;
+}
+.login .input-group {
+	border-bottom:solid #d3d3d3 .1rem;
+	padding:1rem 5%;
+	position:relative;
+	overflow:hidden;
+}
+.login .input-group input {
+	border-width:0rem;
+	margin-left:3rem;
+	height:5rem;
+	line-height:5rem;
+	background:none;
+	font-size:1.5rem;
+	float:left;
+}
+.login .input-group .login-ico{
+	background-position:0 0;
+	background-repeat:no-repeat;
+	width:2rem;
+	height:2rem;
+	background-size:2rem auto;
+	float:left;
+	position:absolute;
+	top:50%;
+	margin-top:-1rem;
+}
+.login .input-group .login-ico1{
+	background-image:url(../images/login-ico1.png);
+}
+.login .input-group .login-ico2{
+	background-image:url(../images/login-ico2.png);
+}
+.btn-red a{
+	display:block;
+	padding:1.6rem 0;
+	font-size:1.5rem;
+	background-color:#ff5a5b;
+	border:none;
+	border-radius:.4rem;
+	text-align:center;
+	margin:1.3rem 0;
+	color:#ffffff;
+}
+.btn-white a{
+	display:block;
+	padding:1.6rem 0;
+	font-size:1.5rem;
+	background-color:#ffffff;
+	border:.1rem solid #d3d3d3;
+	border-radius:.4rem;
+	text-align:center;
+	margin:1.3rem 0;
+	color:#fa5a5a;
+}
+.login .login-text{
+	font-size:1.5rem;
+	color:#3f7eff;
+	margin-bottom:5rem;
+}
+.login .login-text .text-red{
+	color:#ff4444;
+}
+
+/* register */
+
+.register .logo{
+	background-image:url(../images/logo-ico.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:16.9rem;
+	height:3.7rem;
+	background-size:contain;
+	display:block;
+	margin:2.5rem auto;
+}
+.register .input-group{
+	border:solid #d3d3d3 .1rem;
+	overflow:hidden;
+	margin-bottom:1.3rem;
+	color:#666666;
+	font-size:1.5rem;
+}
+.register .input-group input{
+	border-width:0rem;
+	line-height:4rem;
+	padding:.5rem 2%;
+}
+.register .input-group .input-btn{
+	border-width:0rem;
+	background-color:#ffffff;
+	border-left:.1rem solid #d3d3d3;
+	font-size:1.2rem;	
+	color:#3f7eff;
+	padding:1.8rem 0;
+	text-align:center;
+	width:28%;
+}
+.register .input-text{
+	font-size:1rem;
+	color:#666666;
+}
+
+/* xg-email */
+.xg-email p{
+	font-size:1.3rem;
+	color:#b8b8b8;
+	padding:1.3rem 5%;
+	border-bottom:.1rem solid #d3d3d3;
+	background-color:#fbfbfb;
+}
+.xg-email .input-group{
+	border-bottom:solid #d3d3d3 .1rem;
+	padding:1rem 5%;
+}
+.xg-email .input-group input{
+	border-width:0rem;
+	width:90%;
+	color:#666666;
+}
+.btn-opacity{
+	opacity:0.5;
+}
+
+/* xg-password */
+.xg-password{
+	border:#fbfbfb;
+}
+.xg-password p{
+	font-size:1.3rem;
+	color:#b8b8b8;
+	padding:1.3rem 0;
+}
+.xg-password .input-group{
+	border-top:solid #d3d3d3 .1rem;
+	border-bottom:solid #d3d3d3 .1rem;
+	padding:.5rem 5%;
+	margin-bottom:1.5rem;
+	color:#666666;
+	overflow:hidden;
+}
+.xg-password .input-group input{
+	border-width:0rem;
+	height:3rem;
+	overflow:hidden;
+}
+.text-xgmm{
+	display:none;
+}
+.btn-xgmm{
+	display:inline;
+	float:right;
+	text-align:center;
+	padding:1rem 0;
+	border-left:.1rem solid #d3d3d3;
+	font-size:1.2rem;
+	line-height:1.2rem;
+	color:#6698ff;
+	background-color:#ffffff;
+	width:30%;
+}
+
+
+/* recommend */
+.recommend{
+	background-color:#2e3132;
+}
+.recommend .account{
+	background-color:#fff;
+	margin-top:3.7rem;
+	font-size:1.5rem;
+	color:#000;
+}
+.recommend .account img{
+	width:5rem;
+	height:5rem;
+	padding:1.5rem;
+}
+.recommend .ewm{
+	background-color:#7b7b7b;
+	text-align:center;
+	color:#fff;
+	padding:3rem 0;
+	font-size:1.3rem;
+}
+.recommend .ewm img{
+	width:15rem;
+	height:15rem;
+}
+.recommend .ewm-text{
+	text-align:center;
+	font-size:1.2rem;
+	padding:1rem 0;
+}
+

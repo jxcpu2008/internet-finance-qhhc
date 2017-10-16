@@ -1,0 +1,53 @@
+/* CSS Document */
+
+*{ margin:0px; padding:0px;}
+
+.head{ background-image:url(/resources/images/main/active/ban_bgp.jpg); background-repeat:repeat-x; height:637px;}
+
+.clr{ clear:both} 
+
+.h_pic01{ background-image:url(/resources/images/main/active/ban_01.jpg); background-repeat:no-repeat; background-position:center; height:47px;}
+.h_pic02{ background-image:url(/resources/images/main/active/ban_02.jpg); background-repeat:no-repeat; background-position:center; height:53px;}
+.h_pic03{ background-image:url(/resources/images/main/active/ban_03.jpg); background-repeat:no-repeat; background-position:center; height:52px;}
+.h_pic04{ background-image:url(/resources/images/main/active/ban_04.jpg); background-repeat:no-repeat; background-position:center; height:48px;}
+.h_pic05{ background-image:url(/resources/images/main/active/ban_05.jpg); background-repeat:no-repeat; background-position:center; height:50px;}
+.h_pic06{ background-image:url(/resources/images/main/active/ban_06.jpg); background-repeat:no-repeat; background-position:center; height:56px;}
+.h_pic07{ background-image:url(/resources/images/main/active/ban_07.jpg); background-repeat:no-repeat; background-position:center; height:64px;}
+.h_pic08{ background-image:url(/resources/images/main/active/ban_08.jpg); background-repeat:no-repeat; background-position:center; height:58px;}
+.h_pic09{ background-image:url(/resources/images/main/active/ban_09.jpg); background-repeat:no-repeat; background-position:center; height:56px;}
+.h_pic10{ background-image:url(/resources/images/main/active/ban_10.jpg); background-repeat:no-repeat; background-position:center; height:60px;}
+.h_pic11{ background-image:url(/resources/images/main/active/ban_11.jpg); background-repeat:no-repeat; background-position:center; height:45px;}
+.h_pic12{ background-image:url(/resources/images/main/active/ban_12.jpg); background-repeat:no-repeat; background-position:center; height:48px;}
+.h_pic13{ background-image:url(/resources/images/main/active/ban_13.jpg); background-repeat:no-repeat; background-position:center; height:36px;}
+
+.foot{ background-image:url(/resources/images/main/active/bgp.jpg);}
+.f_pic{ width:1350px; margin:0 auto;}
+
+.f_p02{ background-image:url(/resources/images/main/active/f_02.png); background-repeat:no-repeat; height:49px;}
+.f_p03{ background-image:url(/resources/images/main/active/f_08.png); background-repeat:no-repeat; height:48px; padding-left:1140px; padding-top:6px;}
+.f_p04{ background-image:url(/resources/images/main/active/f_14.png); background-repeat:no-repeat; height:45px; padding-left:710px; padding-top:18px;}
+.f_p05{ background-image:url(/resources/images/main/active/f_15.png); background-repeat:no-repeat; height:39px; padding-left:650px; padding-top:8px;}
+.f_p06{ background-image:url(/resources/images/main/active/f_25.png); background-repeat:no-repeat; height:179px;}
+
+.f_txt a{ font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#b20008; text-decoration:none;}
+.f_txt a:hover{ font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#b20008; text-decoration:underline;}
+
+.f_p002, .f_p003{ float:left; padding-top:6px;}
+.f_p002{ padding-left:635px;}
+.f_p003{ padding-left:125px;}
+
+.f_p03 a{font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#fff; text-decoration:none;}
+.f_p03 a:hover{font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#fff; text-decoration:underline;}
+
+.f_p04 a{font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#fff; text-decoration:none;}
+.f_p04 a:hover{font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#fff; text-decoration:underline;}
+
+.f_p05 a{font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#fff; text-decoration:none;}
+.f_p05 a:hover{font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#fff; text-decoration:underline;}
+
+.fp006, .fp007{ float:left; height:179px; font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#333; overflow: auto;}
+td{
+	height: 38px;
+}
+.fp006{ width:335px; margin-left:165px;}
+.fp007{ width:320px; margin-left:430px;}

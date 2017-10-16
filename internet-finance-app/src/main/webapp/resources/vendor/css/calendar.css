@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+#win {
+    background-color: #d9534f;
+    float: left;
+    height: 315px;
+    width: 194px;
+}
+#win #otitle {
+    color: #fff;
+    height: 203px;
+    text-align: center;
+}
+#win #otitle #otitlestr {
+    float: left;
+    font-size: 127px;
+    height: 164px;
+    line-height: 184px;
+    width: 100%;
+}
+#win #otitle #close {
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 123px;
+}
+#win #otitle #close #dateView {
+    color: #fff;
+    float: left;
+}
+#win #showstr {
+    color: #fff;
+    font-size: 14px;
+    height: 60px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    width: 172px;
+}
+#win #line {
+    border-bottom: 1px solid #cecece;
+    margin: 0 auto 20px;
+    width: 172px;
+}
+#win #otitle #rightBtn {
+    float: left;
+    margin-left: 28px;
+}
+.clear {
+    clear: both;
+}
+#newDate em {
+    font-style: normal;
+}
+#newDate ul, #newDate li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#newDate {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #c7c7c7 #5faad5 #c7c7c7 #c7c7c7;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    float: left;
+    height: 315px;
+    width: 278px;
+}
+#newDate #nowDate {
+    cursor: pointer;
+    float: left;
+    height: 313px;
+    width: 273px;
+}
+#newDate #nextDate {
+    cursor: pointer;
+    float: right;
+    height: 243px;
+    width: 287px;
+}
+#newDate .Header {
+    -moz-user-select: none;
+    background: #fff none repeat scroll 0 0;
+    height: 25px;
+    position: relative;
+    width: 273px;
+}
+#newDate .c {
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 28px;
+}
+#newDate .l {
+    color: #d9534f;
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    left: 14px;
+    line-height: 25px;
+    position: absolute;
+    top: 0;
+}
+#newDate .r {
+    display: none;
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    right: 14px;
+    top: 0;
+}
+#newDate .Weeks {
+    height: 20px;
+    width: 273px;
+}
+#newDate span {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 39px;
+}
+#newDate ul {
+    float: left;
+}
+#newDate ul li {
+    background: #ffffff none repeat scroll 0 0;
+    border-top: 1px solid #c7c7c7;
+    color: #000;
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    margin-top: 1px;
+    text-align: center;
+    width: 39px;
+}
+#newDate ul li .tips, #newDate ul li .clock, #newDate ul li .day {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+    height: 13px;
+    line-height: 13px;
+    width: 40px;
+}
+#newDate ul li:hover{
+    transition: background-color .1s ease-in;
+    -webkit-transition: background-color .1s ease-in;
+    -moz-transition: background-color .1s ease-in;
+    -ms-transition: background-color .1s ease-in;
+    -o-transition: background-color .1s ease-in;
+}
+#newDate ul li .tips_H {
+    height: 6px;
+    line-height: 6px;
+}
+#newDate ul li .clock_right {
+    background-image: url(""); /* ../images/clock.png */
+    background-position: 26px 0;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+#newDate .yuefen {
+    background: #fff none repeat scroll 0 0;
+    border-top: 1px solid #c7c7c7;
+    width: 39px;
+}

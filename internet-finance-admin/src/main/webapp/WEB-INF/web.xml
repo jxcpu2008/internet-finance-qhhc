@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+						http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	
+	<display-name>前海红筹后台管理系统</display-name>
+	<welcome-file-list>
+		<welcome-file>index.htm</welcome-file>
+	</welcome-file-list>
+	
+	<!-- 使用gzip压缩资源文件 开始 -->
+	<filter>
+		<filter-name>gzip</filter-name>
+		<filter-class>com.hc9.common.filter.CompressionFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>gzip</filter-name>
+		<url-pattern>/resources/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- 使用gzip压缩资源文件 结束 -->
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>com.hc9.common.filter.CharacterFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- 渠道推广过滤器 -->
+<!-- 	<filter> -->
+<!-- 		<filter-name>spreadLinkFilter</filter-name> -->
+<!-- 		<filter-class>com.hc9.common.filter.SpreadLinkFilter</filter-class> -->
+<!-- 	</filter> -->
+<!-- 	<filter-mapping> -->
+<!-- 		<filter-name>spreadLinkFilter</filter-name> -->
+<!-- 		<url-pattern>/*</url-pattern> -->
+<!-- 	</filter-mapping> -->
+	
+	<filter>
+		<filter-name>hibernateFilter</filter-name>
+		<filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter</filter-class>
+		<init-param>
+			<param-name>sessionFactoryBeanName</param-name>
+			<param-value>sessionFactory</param-value>
+		</init-param>
+		<init-param>
+			<param-name>singleSession</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>flushMode</param-name>
+			<param-value>AUTO </param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>hibernateFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<filter>  
+        <filter-name>DruidWebStatFilter</filter-name>  
+        <filter-class>com.alibaba.druid.support.http.WebStatFilter</filter-class>  
+        <init-param>  
+            <param-name>exclusions</param-name>  
+            <param-value>*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*</param-value>  
+        </init-param>  
+      </filter>  
+    <filter-mapping>  
+		<filter-name>DruidWebStatFilter</filter-name>  
+		<url-pattern>/*</url-pattern>  
+    </filter-mapping>
+	
+	<context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath*:config/main/spring-db.xml</param-value>
+<!-- 		<param-value>/WEB-INF/classes/config/main/spring-db.xml,/WEB-INF/classes/config/main/spring-quartz.xml</param-value> -->
+    </context-param>
+    <listener>
+    	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+	
+	<servlet>
+		<servlet-name>springMVC</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath*:config/main/spring-mvc.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springMVC</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	
+	<!-- druid monitor -->
+	<servlet>  
+        <servlet-name>DruidStatView</servlet-name>  
+        <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>  
+        <init-param>
+			<param-name>allow</param-name> 
+			<param-value>192.168.9.115,192.168.21.158</param-value>
+		</init-param>
+<!-- 		<init-param> -->
+<!-- 			<param-name>deny</param-name>  -->
+<!-- 			<param-value>127.0.0.1</param-value> -->
+<!-- 		</init-param> -->
+		<init-param>
+			<param-name>loginUsername</param-name>
+			<param-value>admin</param-value>
+		</init-param>
+		<init-param>
+			<param-name>loginPassword</param-name>
+			<param-value>admin</param-value>
+		</init-param>
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>DruidStatView</servlet-name>  
+        <url-pattern>/druid/*</url-pattern>  
+    </servlet-mapping>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/error-404.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/error-500.jsp</location>
+	</error-page>
+	<!-- 删除页面中的空行 开始 -->
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<trim-directive-whitespaces>true</trim-directive-whitespaces>
+		</jsp-property-group>
+	</jsp-config>
+	<!-- 删除页面中的空行 结束 -->
+</web-app>

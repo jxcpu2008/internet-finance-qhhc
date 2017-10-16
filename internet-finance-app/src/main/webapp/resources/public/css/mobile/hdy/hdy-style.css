@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+
+.px12{
+	font-size:1.2rem;
+}
+.px13{
+	font-size:1.3rem;
+}
+.px18{
+	font-size:1.8rem;
+}
+.px21{
+	font-size:2.1rem;
+}
+.crl-white{
+	color:#ffffff;
+}
+.crl-yellow{
+	color:#ffe42e;
+}
+.crl-red{
+	color:#b72c3f;
+}
+.crl-black{
+	color:#000000;
+}
+.txt-c{
+	text-align:center;
+}
+.txt-l{
+	text-align:left;
+}
+.txt-r{
+	text-align:right;
+}
+.bg-crl{
+	background-color:#dd3232;
+}
+.mt10{
+	margin-top:1rem;
+}
+
+/* 登录浮动 */
+.login-box{
+	background-color:rgba(252,235,235,0.9);
+	display:block;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	padding:1rem 5%;
+	z-index:99;
+}
+.login-box a{
+	padding:.8rem 15%;
+	text-align:center;
+	font-size:1.5rem;
+	line-height:1.5rem;
+	display:inline;
+	border-radius:.4rem;
+}
+.btn-left{
+	float:left;
+	background-color:#97c44b;
+}
+.btn-right{
+	float:right;
+	background-color:#ee4e4e;
+}
+
+
+/* main */
+section header img{
+	width:70%;
+	height:70%;
+}
+#page1 article{
+	background:url(../../../images/mobile/hdy/dial-img1.png) center 0 no-repeat;
+	width:24rem;
+	height:24rem;
+	background-size:contain;
+	position:relative;
+	margin-top:1rem;
+}
+#page1 article .prize{
+	width:22rem;
+	height:22rem;
+	position:absolute;
+	left:50%;
+	margin-left:-11rem;
+	top:1rem;
+}
+#page1 article .dial-arrow{
+	width:7rem;
+	height:8.2rem;
+	position:absolute;
+	left:50%;
+	margin-left:-3.5rem;
+	top:7.5rem;
+}
+#page1 article .dial-text{
+	position:absolute;
+	bottom:-3rem;
+	left:50%;
+	margin-left:-6rem;
+}
+#page1 footer .explain{
+	margin:4rem 5%;
+	position:relative;
+}
+#page1 footer .explain li img{
+	width:6rem;
+	height:2.5rem;
+	position:absolute;
+	right:5%;
+	bottom:2rem;
+}
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 1.4rem solid transparent;
+    border-right: 1rem solid #fddb8a;
+    border-bottom: 1.4rem solid transparent;
+	float:left;
+	display:inline;
+}
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 1.4rem solid transparent;
+    border-left: 1rem solid #fddb8a;
+    border-bottom: 1.4rem solid transparent;
+	float:left;
+	display:inline;
+}
+.triangle .text{
+	display:inline;
+	float:left;
+	background-color:#fddb8a;
+	padding:.5rem 6rem;
+}
+#page2{
+	margin-bottom:2rem;
+}
+#page2 article{
+	border:.1rem solid #fff379;
+	border-radius:.5rem;
+	background-color:#e44141;
+	margin-top:1rem;
+	position:relative;
+}
+#page2 article .list-title{
+	position:relative;
+	padding:2.5rem 5%;
+}
+.em1{
+	position:absolute;
+	left:5%;
+}
+.em2{
+	position:absolute;
+	left:50%;
+	margin-left:-20%;
+}
+.em3{
+	position:absolute;
+	right:20%;
+}
+#page2 article .list-pir{
+	background-color:#ff5939;
+	border-radius:.5rem;
+	padding-top:.5rem;
+	margin-bottom:1.5rem;
+}
+#page2 article .list-pir ul{
+	overflow:hidden;
+	margin:0 auto;
+}
+#page2 article .list-pir ul li{
+	float:left;
+	text-align:center;
+	padding:.5rem 0;
+	border-bottom: .1rem dashed #ffffff;
+	margin:0 3%;
+}
+#page2 article .list-pir ul li em{
+	padding:0 1.5rem;
+}
+
+.dial-btn{
+	overflow:hidden;
+	padding:1rem 0;
+}
+.dial-btn a{
+	background-color:#ffe95c;
+	color:#ff5939;
+	border-radius:.4rem;
+	padding:.5rem 5%;
+}
+
+#page3 .triangle .text img{
+	width:1.2rem;
+	height:.8rem;
+}
+.triangle{
+	overflow:hidden;
+	margin:1rem auto;
+}
+#page3 .prize{
+	margin:2rem 0;
+}
+#page4 .triangle .text{
+	display:inline;
+	float:left;
+	padding:.5rem 8rem;
+}
+.decorate em{
+	width:.4rem;
+	height:.4rem;
+	border-radius: .2rem; 
+	-webkit-box-shadow: 0 0 .4rem #f3a164;
+}
+.decorate em:nth-child(odd){
+	background-color:#fddb8a;
+}
+.decorate em:nth-child(even){
+	background-color:#ffffff;
+}
+.decorate em{
+	display:inline;
+	float:left;
+	margin:.4rem;
+}
+.decorate1{
+	height:1.2rem;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+}
+.decorate2{
+	position:absolute;
+	left:0;
+	overflow:hidden;
+	width:1.2rem;
+	height:92%;
+	top:4%;
+}
+.decorate3{
+	height:1.2rem;
+	overflow:hidden;
+	position:absolute;
+	bottom:0;
+}
+.decorate4{
+	position:absolute;
+	right:0;
+	overflow:hidden;
+	width:1.2rem;
+	height:92%;
+	top:4%;
+}
+#popup-box2,
+#popup-box{
+	background-color:#ffffff;
+	border-radius:.4rem;
+	padding-bottom:.5rem;
+}
+#popup-box2 img,
+#popup-box img{
+	width:100%;
+	height:11rem;
+}
+.input-group {
+	border:solid #d3d3d3 .1rem;
+	padding:.5rem 5%;
+	position:relative;
+	overflow:hidden;
+	margin:.5rem 5%;
+}
+.input-group input {
+	border-width:0rem;
+	background:none;
+	font-size:1.5rem;
+	float:left;
+}
+.input-group .input-margin{
+	margin-left:3rem;
+}
+.input-sj{
+	width:60%;
+}
+.input-btn{
+	position:absolute;
+	right:0;
+	color:#588fff;
+	padding:0.5rem 1.5rem;
+	top:0.5rem;
+}
+.input-group .login-ico{
+	background-position:0 0;
+	background-repeat:no-repeat;
+	width:2rem;
+	height:2rem;
+	background-size:2rem auto;
+	float:left;
+	position:absolute;
+	top:50%;
+	margin-top:-1rem;
+}
+.input-group .login-ico1{
+	background-image:url(../../../images/mobile/hdy/login-ico1.png);
+}
+.input-group .login-ico2{
+	background-image:url(../../../images/mobile/hdy/login-ico2.png);
+}
+.btn-common{
+	display:block;
+	padding:1rem 0;
+	font-size:1.2rem;
+	border:none;
+	border-radius:.4rem;
+	text-align:center;
+	margin:1rem 0;
+	color:#ffffff;
+	background-color:#ee4e4e;
+}
+.btn-register{
+	padding:.8rem 0;
+	background-color:#ffffff;
+	border:.1rem solid #ff4444;
+	color:#ff4444;
+}
+.protocol{
+	font-size:1.2rem;
+	overflow:hidden;
+	padding:1rem 0;
+}
+.checkbox{
+	width:1.5rem;
+	height:1.5rem;
+	border:.1rem solid #d3d3d3;
+	background-color:#ffffff;
+	display:inline-block;
+	color:#333333;
+	float:left;
+	margin-right:.5rem;
+}
+.checked{
+	border-color:#ff4444;
+	background:url(../../../images/mobile/hdy/ico-correct.png) 0 0 no-repeat;
+	width:1.5rem;
+	height:1.5rem;
+	background-size:contain;
+}
+.protocol a{
+	color:#3f7eff;
+}
+.red-packet{
+	background:url(../../../images/mobile/hdy/hongbao.png) 0 0 no-repeat;
+	width:22rem;
+	height:29rem;
+	background-size:contain;
+	position:relative;
+}
+.red-packet dl{
+	font-size:2.3rem;
+	position:absolute;
+	top:40%;
+	left:50%;
+	margin-left:-42%;
+}
+.red-packet a{
+	font-size:1.8rem;
+	padding:.5rem 10%;
+	background-color:#ffea82;
+	border-radius:.4rem;
+	position:absolute;
+	bottom:10%;
+	left:50%;
+	margin-left:-25%;
+}
+.btn-common.disabled{
+	background-color:#ffa3a4;
+}

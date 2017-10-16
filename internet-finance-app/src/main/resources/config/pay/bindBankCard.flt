@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<custody_req>
+	<user_id>${user_id}</user_id>
+	<bank_no>${bank_no}</bank_no>
+	<mobile>${mobile}</mobile>
+	<validate_code>${validate_code}</validate_code>
+</custody_req>

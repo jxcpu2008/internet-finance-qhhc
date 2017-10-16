@@ -1,0 +1,127 @@
+/* qq & wechat */
+ #top {
+    width:60px;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+   	z-index:99;
+}
+#top .chat {
+	width: 60px;
+	height: 60px;
+	background-color: #aaa;
+	margin-bottom: 1px;
+	display: block;
+}
+#top .icon-chat {
+	background-image: url(/resources/assets/images/home/icon_chat.jpg);
+	background-repeat: no-repeat;
+	overflow: none;
+}
+#top .chat-qq {
+	background-position: 0 0;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-qq:hover {
+	background-position: -60px 0;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-wechat {
+	background-position: 0 -60px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-wechat:hover {
+	background-position: -60px -60px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-help {
+	background-position: 0 -120px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-help:hover {
+	background-position: -60px -120px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-calculate {
+	background-position: 0 -180px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-calculate:hover {
+	background-position: -60px -180px;
+	transition: all .3s ease-in .1s;
+}
+#top .chat-top {
+	background-position: 0 -240px;
+	display: none;
+}
+#top .chat-top:hover {
+	background-position: -60px -240px;
+	transition: all .3s ease-in .1s;
+}
+#top .ewm-wrap {
+	position: absolute;
+	width: 180px;
+	height: 210px;
+	border: 1px solid #ccc;
+	margin-top: -61px;
+	margin-left: -185px;
+	background-color: #f6f6f6;
+	display: none;
+}
+#top .ewm-wrap>p {
+	font-size: 12px;
+	text-align: center;
+	color: #333;
+}
+#top .ewm {
+	background-image: url(/resources/assets/images/home/qrcode-right.jpg);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 160px;
+	margin: 12px auto;
+}
+/* ¼ÆËãÆ÷ */
+.calculate {
+	/* background-color: #ce251f;
+	width: 138px;
+	height: 45px;
+	border-style:none;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;	 */
+}
+#calculateModal .input-group-addon {
+	padding: 6px;
+	background-color: #fff;
+	border-style: none;
+	width: 35px;
+	display: inline-block;
+	position: relative;
+	font-size: 18px;
+	left: -14px;
+	top: 2px;
+}
+#calculateModal .modal-body>.form-horizontal>.form-group {
+	margin-bottom: 28px;
+}
+#calculateModal .modal-body>.form-horizontal>.form-group:last-child {
+	border: 1px solid #eee; 
+	border-radius: 4px; 
+	padding-top: 15px;
+    padding-bottom: 15px; 
+    width: 455px; 
+    margin: 15px auto;
+}
+#calculateModal .modal-body>.form-horizontal>.form-group:last-child>label {
+	padding-bottom: 7px;
+}
+#calculateModal .modal-body>.form-horizontal>.form-group:last-child>.all-money {
+	overflow: hidden;
+}
+#calculateModal .modal-footer {
+	text-align:center;
+}
+#calculateModal .error-tips{
+	position: absolute;
+}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	background:#f45b3d;
+}
+.regist {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:url(/resources/public/images/mobile/regist-bg.jpg) center top no-repeat;
+	background-size:cover;
+	overflow:hidden;
+}
+.regist .input-text {
+	display:block;
+	width:88%;
+	border-width:0px;
+	padding:1rem 6%;
+	border-radius:5rem;
+	line-height:2.4rem;
+}
+.regist .row {
+	padding:2rem 0;	
+	overflow:hidden;
+}
+.regist .row .input-text {
+	display:inline;
+	float:left;
+	width:43%;
+}
+.regist .row .input-button {
+	display:inline;
+	float:right;
+	width:40%;
+	background:#38a8ff;
+	border-width:0px;
+	color:white;
+	padding:1.4rem 0;
+	margin-right:.25rem;
+	border-radius:5rem;
+	box-shadow:0 .2rem .2rem .2rem rgba(0,0,0,.6), inset 0 -0.3rem .3rem .3rem rgba(0,0,0,.1);
+	text-align:center;
+}
+.regist .input-submit {
+	margin-top:3rem;	
+	display:block;
+	width:100%;
+	padding:1.15rem 0;
+	background:#ffe747;
+	border-radius:5rem;
+	font-size:2rem;
+	color:#f35233;
+	border-width:0px;
+	text-align:center;
+	box-shadow:0 .2rem .2rem .2rem rgba(0,0,0,.6), inset 0 -0.3rem .3rem .3rem rgba(0,0,0,.1);
+}
+.regist .input-button:active,
+.regist .input-submit:active {
+	top:.1rem;
+	box-shadow:0 .1rem .1rem .1rem rgba(0,0,0,.6), inset 0 -0.3rem .3rem .3rem rgba(0,0,0,.1);
+}
+.regist .congrats{
+	position:relative;
+ text-align:center;
+ color:#ffce24;	
+ top:-10%;
+}
+.regist .congrats dt {
+	font-size:1.5rem;
+}
+.regist .btn-share {
+	display:block;
+	width:8.7rem;
+	text-align:center;
+	height:2.5rem;
+	line-height:2.5rem;
+	border-radius:.3rem;
+	color:#f35233;
+	background:#fff000;
+	margin:1rem auto;
+	border-bottom:solid #e4d700 0.2rem;
+	overflow:hidden;
+}
+.regist .btn-share:active {
+	position:relative;
+	margin-top:1.2rem;
+	border-bottom-width:0;
+	-webkit-box-shadow:inset .1rem .2rem 1rem rgba(0,0,0,0.3);
+	-moz-box-shadow:inset .1rem .2rem 1rem rgba(0,0,0,0.3);
+	box-shadow:inset .1rem .2rem 1rem rgba(0,0,0,0.3);
+}
+.regist .notice {
+	margin-top:-15%;
+}
+.regist .notice dt {
+	color:#ffce24;
+}
+.regist .notice dd {
+	color:white;
+}
+
+.regist .share {
+	display:block;
+	background:rgba(0,0,0,.8) url(/resources/public/images/mobile/share-bg.png) left top no-repeat;
+	background-size:contain;
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;	
+}

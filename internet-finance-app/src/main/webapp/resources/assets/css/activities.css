@@ -1,0 +1,273 @@
+
+a:hover{
+    cursor: pointer;
+}
+.ahed{
+    background-image: url(/resources/images/main/active/bcg.jpg);background-repeat: no-repeat;height: 448px;
+    background-size: cover;
+    background-position: center;
+}
+
+input[data-id='yanz']{
+    width: 40%;
+    display: inline-block;
+}
+.labyan{
+    display: block;
+}
+
+.modal-title{
+    color: #d9534f;
+    font-weight: bolder;
+}
+
+form{
+    color: #666;
+}
+
+
+.log>div.form-group{
+    margin-bottom: 0;
+}
+.
+.recode {
+    margin-left: 10px;
+    font-size: 14px;
+}
+.recode input{
+    width: 80%;
+    display: inline-block;
+}
+.recode span{
+    font-size: 20px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.recode label{
+    margin-bottom: 8px;
+}
+.recode>div:first-child{
+    margin-bottom: 64px;
+}
+
+.phonered{
+    font-size: 12px;
+    margin-top: 4px;
+    color: #d9534f;
+}
+.regrt{
+    margin-top: 50px;
+}
+
+.regrt p{
+    color: #d9534f;
+    font-size: large;
+    
+}
+
+.err{
+    height: 18px;
+    display: block;
+    color: red;
+    visibility:hidden ;
+}
+.ahed2{
+    height: 300px;
+    background-color: #fbefbb;
+}
+.ahed2>div{
+    width: 1085px ;
+    margin: 0 auto;
+
+    text-align: center;
+}
+.newreget{
+    background-image: url(/resources/images/main/active/act06.jpg);background-repeat: repeat-x;height: 492px;
+
+}
+.newreget2{
+    height: 100px;
+    background-color: #fbefbb;
+}
+.oldreget{
+    background-image: url(/resources/images/main/active/act07.jpg);background-repeat: repeat-x;height: 525px;
+
+}
+.oldreget2{
+    height: 400px;
+    background-color: #fbefbb;
+}
+.abot{
+    position: relative;
+    background-image: url(/resources/images/main/active/act05.jpg);height: 141px;
+    background-size: cover;
+    background-position: center;
+
+}
+.abot2{
+    height: 200px;
+    background-color: #fbefbb;
+}
+
+.main .bg-danger{
+    background-color: #d70000;
+}
+.regbutton{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 23px 0 30px 0;
+    padding: 10px 25px;
+    box-shadow:5px 5px 5px rgba(0,0,0,.6);
+}
+.at1{
+    color: #d70000;
+    font-size: 35px;
+}
+.at2{
+    color: #d70000;
+    font-size: 70px;
+}
+.imrg{
+    cursor: pointer;
+    margin-top: 48px;
+    background-image: url(/resources/images/main/active/act03.jpg);
+    height: 383px;
+    width: 435px;
+}
+
+.newreget div>div:nth-child(2) a img:hover{
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transform: scale(.9);
+}
+.imleft{
+    cursor: pointer;
+    margin-top: 70px;
+    background-image: url(/resources/images/main/active/act04.jpg);
+    height: 382px;
+    width: 417px;
+}
+
+.oldreget>div>div:first-child a img:hover{
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transform: scale(.9);
+    /*-webkit-transition: all 1s;*/
+    /*-moz-transition: all 1s;*/
+    /*-ms-transition: all 1s;*/
+    /*-o-transition: all 1s;*/
+    /*transition: all 1s;*/
+}
+.retu{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 71px 0 30px 0;
+    padding: 10px 25px;
+}
+
+.oldreget2 div{
+    width: 1085px ;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 90px;
+}
+
+.oldreget>div{
+    font-size: 22px;
+
+    width: 1085px ;margin: 0 auto;
+}
+
+.oldreget>div>div:first-child{
+    margin-top: 70px;
+}
+.oldreget>div>div:nth-child(2){
+    margin-top: 130px;
+   color: #fff;
+}
+
+.oldreget>div>div:nth-child(2) a{
+    background-color: #d70000;
+    margin-top: 80px;
+}
+
+.oldreget>div>div:nth-child(2) span{
+
+    font-size: 37px;
+    font-weight: bold;
+
+}
+.oldreget>div>div:nth-child(2) label{
+
+    font-size: 29px;
+    font-weight: bold;
+
+}
+.old{
+    margin-top: 90px;
+    color: #ffffff;
+    font-size:16px ;
+}
+
+.old span{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.old a{
+    margin-top: 105px;
+}
+.newreget >div{
+
+    width: 1085px ;margin: 0 auto;
+
+    color: #ffffff;
+    font-size: 22px;
+}
+.newreget div>div:first-child{
+    margin-top: 150px;
+}
+
+.newreget div>div:first-child a{
+    margin-top: 10px;
+    background-color: #d70000;
+}
+.newreget div>div:nth-child(2){
+    margin-top: 50px;
+
+}
+.newreget div:first-child span{
+
+    font-size: 37px;
+    font-weight: bold;
+
+}
+
+.newreget div:first-child label{
+
+    font-size: 29px;
+    font-weight: bold;
+
+}
+
+a.bg-danger{
+
+    color: #ffffff;
+}
+.regest{
+    position: absolute;
+    height:65px;
+    width: 280px;
+
+    left: 41%;
+    top:  40px;
+}
+

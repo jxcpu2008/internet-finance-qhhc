@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/* 找回密码 */
+.forgotpwdBox{width:400px; height:200px; margin:40px auto; color:#666666;}
+.forgotpwdHead{width:100%; height:42px;}
+.forgotpwdHead span{width:180px; height:42px; background:url(/resources/assets/images/pwdssBG.png) no-repeat; display:inline-block; cursor:pointer;}
+.forgotpwdone{float:left;}
+.forgotpwdtwo{float:right;}
+.forgotpwdHead span.iconPwd_one{background-position:left top;}
+.forgotpwdHead span.iconPwd_ones{background-position:left -71px;}
+.forgotpwdHead span.iconPwd_twos{background-position:right top;}
+.forgotpwdHead span.iconPwd_two{background-position:right -71px;}
+table.forgotpwdTable{width:100%; height:auto; margin-top:20px;}
+table.forgotpwdTable tbody th,table.forgotpwdTable tbody td{height:40px; line-height:40px; font-weight:normal; font-size:14px;}
+table.forgotpwdTable tbody th{width:120px; text-align:right;}
+.forgotpwdTx{width:auto; height:28px; line-height:28px; border:1px solid #dbdbdb; display:inline-block; color:#666666; padding:0px 3px;}
+.w120px{width:180px;}
+.w50px{width:70px;}
+.forgotpwdBnt{width:90px; height:30px; line-height:30px; background:#51abff; color:#fff; border:0px; text-align:center; cursor:pointer; display:inline-block;}
+.forgotpwdBnt_two{width:80px; height:28px; line-height:28px; background:#dadada; color:#666666; text-align:center; cursor:pointer; display:inline-block;}
+.forgotpwdBnt_two:hover{background:#fe7900; color:#fff;}
+.forgotpwdSevers{width:100%; height:auto; line-height:1.8; text-align:center; color:#bcbcbc;}
+.bread {
+	padding-top: 18px;
+}
+.bread>ol {
+	display: inline-block;
+}
+.bread li:not(.active):after {
+	content: "\e258";
+	font-size: 12px;
+	color: #777;
+	margin-left: 10px;
+}
+.bread li:not(.active)>a {
+	color: #777;
+}
+.bread li.active {
+	color: #555;
+}
